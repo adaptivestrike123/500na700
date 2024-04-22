@@ -50,4 +50,7 @@
   .header-logo {
     z-index: -1;
   }
+  .contact {
+    z-index: 0;
+  }
 }
