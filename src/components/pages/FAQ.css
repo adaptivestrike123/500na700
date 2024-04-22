@@ -1,0 +1,38 @@
+.faq {
+  padding: 65px 0px;
+}
+.faq-align {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.faq-elem {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-block {
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+.faq-arrow {
+  width: 23px;
+  height: 23px;
+}
+.faq-desc {
+  max-width: 600px;
+  padding-top: 30px;
+}
+.faq-header-wrapper {
+  max-width: 850px;
+}
+@media (max-width: 1000px) {
+  .faq-align {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

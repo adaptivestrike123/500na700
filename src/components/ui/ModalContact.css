@@ -1,0 +1,53 @@
+.modal-contact {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-contact-layout {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 15px;
+  gap: 25px;
+}
+.modal-contact-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal-contact-input .input-mail {
+  width: auto;
+}
+.close {
+  cursor: pointer;
+}
+.modal-contact-header {
+  display: flex;
+  justify-content: space-between;
+}
+.modal-contact .button {
+  background-color: white;
+}
+.modal-contact .button p {
+  color: black;
+}
+.modal-contact h3 {
+  color: black;
+}
+@media (max-width: 1000px) {
+  .modal-contact-layout {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+  .header-logo {
+    z-index: -1;
+  }
+}

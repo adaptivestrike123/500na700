@@ -1,0 +1,31 @@
+.header-mobile {
+  padding-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0f0f17;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-top: 1px solid rgb(88, 88, 88);
+}
+.header-mobile-elem {
+  display: flex;
+  flex-direction: column;
+}
+.header-mobile-wrapper {
+  display: flex;
+}
+.header-mobile-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.header-mobile .contact {
+  position: absolute;
+  bottom: 20px;
+}

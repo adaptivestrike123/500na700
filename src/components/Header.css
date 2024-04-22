@@ -1,0 +1,27 @@
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: #0f0f17;
+  padding: 21px 0px;
+}
+.header-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  gap: 40px;
+}
+.text-container {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+.header-logo {
+  z-index: 1;
+}
+.contact {
+  z-index: 2;
+}

@@ -1,0 +1,52 @@
+.mail {
+  background-color: white;
+  padding: 65px 0px;
+}
+.mail-header h1 {
+  color: #0f0f17;
+}
+.mail-header p {
+  color: #0f0f17;
+}
+.mail-align {
+  display: flex;
+  justify-content: space-between;
+}
+.mail-header {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 270px;
+}
+.mail-input {
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px 15px;
+  height: 200px;
+}
+.input-mail {
+  width: 250px;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 15px 10px;
+}
+.checkbox {
+  color: gray;
+}
+@media (max-width: 1000px) {
+  .mail-align {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .mail-input {
+    height: fit-content;
+  }
+}
+.mail .button {
+  background-color: white;
+}
+.mail .button p {
+  color: black;
+}
